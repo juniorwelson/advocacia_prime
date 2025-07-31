@@ -65,7 +65,9 @@ export default {
   background-color: #ffc107;
   transition: width 0.3s ease;
 }
-
+.bg-body-tertiary {
+  padding-bottom: 0 !important;
+}
 .nav-link:hover::after {
   width: 80%;
   

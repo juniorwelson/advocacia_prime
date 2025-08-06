@@ -24,8 +24,8 @@ export default {
 }
 .logoInicial{
     width: 500px;
-    height: auto
-   
+    height: auto;
+box-shadow: 5px -5px 5px #fcba02;
 }
 
 

@@ -10,7 +10,7 @@
     <section class="container-fluid d-flex justify-content-evenly flex-wrap py-4" data-aos="fade-up">
       
       <!-- primeiro card -->
-      <div class="card mb-4 lawr" style="width: 18rem;" >
+      <div class="card mb-4 lawr  border border-warning" style="width: 18rem;" >
         <img src="/img/advogado1.jpg" class="card-img-top" alt="foto do advogado" id="img1">
         <div class="card-body">
           <h5 class="card-title text-light">Dr. João Silva</h5>
@@ -20,7 +20,7 @@
       </div>
 
       <!-- segundo card -->
-      <div class="card mb-4 lawr" style="width: 18rem;">
+      <div class="card mb-4 lawr border border-warning"  style="width: 18rem;">
         <img src="/img/advogado3.jpg" class="card-img-top" alt="foto do advogado" id="img2">
         <div class="card-body">
           <h5 class="card-title text-light">Dra. Mariana Alves</h5>
@@ -30,7 +30,7 @@
       </div>
 
       <!-- terceiro card -->
-      <div class="card mb-4 lawr" style="width: 18rem;">
+      <div class="card mb-4 lawr  border border-warning" style="width: 18rem;">
         <img src="/img/advogado2.jpg" class="card-img-top" alt="foto do advogado" id="img3">
         <div class="card-body">
           <h5 class="card-title text-light">Dr. Pedro Rocha</h5>

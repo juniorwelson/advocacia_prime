@@ -31,11 +31,7 @@ box-shadow: 5px -5px 5px #fcba02;
 
 
 
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
+
 #text{
     font-size: 3em;
     color: #fcba02;

@@ -6,7 +6,7 @@
      <a class="nav-link  text-warning text-center mt-5  " href="#" id="contactlaw" target="_blank"   aria-label="Falar com advogado pelo WhatsApp ou outro canal">Falar Com Advogado</a>
 </div>
 
-<img src="/img/logo-inicial.jpg" alt="logo da justiça" class="logoInicial rounded-4 img-fluid mt-3">
+<img src="/img/logo-inicial.jpg" alt="logo da justiça" class="logoInicial rounded-4 img-fluid mt-3 ">
     </section>
 </template>
 
@@ -26,6 +26,7 @@ export default {
     width: 500px;
     height: auto;
 box-shadow: 5px -5px 5px #fcba02;
+margin-top: 5% !important;
 }
 
 

@@ -1,32 +1,23 @@
 <template>
-  
-  <nav class="navbar navbar-expand-lg bg-body-tertiary "  >
-    <div class="container-fluid bg-dark  "  style="padding-top: 1rem; padding-bottom: 1rem;">
-      <a class="navbar-brand text-light ps-5" href="#">Advocacia Prime</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon bg-warning"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav d-flex justify-content-evenly mx-auto">
-          <a class="nav-link active text-warning" aria-current="page" href="#"
-            >Home</a
-          >
-          <a class="nav-link text-warning" href="#"> Quem Somos</a>
-          <a class="nav-link text-warning" href="#">Serviços</a>
-          <a class="nav-link text-warning" href="#">Contato</a>
-           <a class="nav-link  text-warning text-center  ms-5  " href="#" id="contact" target="_blank">Falar Com Advogado</a>
-        </div>
+  <nav class="navbar navbar-expand-lg position-fixed w-100" style="z-index:2000; ">
+  <div class="container-fluid bg-dark ">
+    <a class="navbar-brand text-light ps-5" href="#">Advocacia Prime</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon bg-warning"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav d-flex justify-content-evenly mx-auto w-100">
+        <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+        <a class="nav-link text-warning" href="#about">Quem Somos</a>
+        <a class="nav-link text-warning" href="#services">Serviços</a>
+        <a class="nav-link text-warning" href="#contato">Contato</a>
+        <a class="nav-link text-warning text-center ms-5" href="#" id="contact" target="_blank">Falar Com Advogado</a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
+
 </template>
 
 <script>
@@ -80,10 +71,7 @@ export default {
   
 }
 
-/*responsivo 450px*/
-@media (max-width:900px){
- 
-}
+
 
 
 </style>

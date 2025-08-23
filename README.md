@@ -1,24 +1,31 @@
-# advocacia-prime
+# ⚖️ Site de Advocacia - Vue + Bootstrap
 
-## Project setup
-```
-npm install
-```
+Este projeto é um site institucional para um escritório de advocacia, desenvolvido com [Vue.js](https://vuejs.org/) e [Bootstrap](https://getbootstrap.com/) para garantir uma interface moderna, responsiva e de fácil navegação.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 📌 Funcionalidades
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Página inicial com apresentação do escritório
+- Seção de área de atuação
+- Página de equipe com perfis dos advogados
+- Formulário de contato funcional
+- Layout responsivo para dispositivos móveis
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 🛠️ Tecnologias Utilizadas
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- **Vue.js 3** – Framework progressivo para construção de interfaces
+- **Bootstrap 5** – Framework CSS para design responsivo
+
+
+
+## 🚀 Instalação e Execução
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/juniorwelson.git
+   cd advocacia-prime
+
+2- Instale as dependências:
+    npm install
+
+3- Execute o projeto em modo de desenvolvimento:
+  npm run serve

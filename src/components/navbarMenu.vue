@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg position-fixed w-100" style="z-index:2 000; ">
+  <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid bg-dark ">
     <a class="navbar-brand text-light ps-5" href="#">Advocacia Prime</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
